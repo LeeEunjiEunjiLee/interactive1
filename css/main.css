@@ -1,0 +1,20 @@
+
+    /* reset styles */
+    
+    * {
+      margin: 0px;
+      padding: 5px;
+    }
+    
+    /* begin styles */
+    
+    body {
+      color: purple;
+      background-color: lightgray;
+      margin-top: 25px;
+      margin-left: 30px;
+      margin-right: 30px;
+      padding-top: 25px;
+      border-left: 5px solid red;
+      list-style-position: inside;
+    }

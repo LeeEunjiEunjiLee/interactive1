@@ -1,0 +1,47 @@
+
+    body {
+      background: #4F8AB2;
+      color: #B2B2B2;
+      font-size: 18px;
+      font-weight: lighter;
+      line-height: 1.3em;
+    }
+
+    #container {
+    	max-width: 650px;
+    	margin: 0 auto;
+    }
+    
+    img {
+    	max-width: 100%
+    }
+
+    body {
+    	font-family: "Futura", sans-serif;
+    }
+
+    #toc ul {
+    	position: fixed;
+    	top: 1em;
+    	right: 1em;
+    	color: #96928F;
+    	padding: 0;
+    	font-size: 0.7em;
+    	color: #96928F;
+    	list-style-type: none;
+    }
+
+    h1 {
+    	color: #FFDA00;
+    	font-size: 3em;
+    	font-weight: normal;
+    	line-height: 1.1;
+    }
+
+    h2 {
+    	color: #FFDA00;
+    	font-weight: normal;
+    	font-size: 1.2em;
+    	text-decoration: underline;
+    	padding-top: 7em;
+    }
