@@ -9,20 +9,29 @@
     /* begin styles */
     
     body {
-      color: purple;
-      background-color: lightgray;
-      margin-top: 25px;
-      margin-left: 30px;
-      margin-right: 30px;
-      padding-top: 25px;
-      border-left: 5px solid red;
-      list-style-position: inside;
+      text-align: center;
+      font-family: "Helvetica", sans-serif;
     }
 
-    a, a:visited {
-      color: blue;
+    h1 {
+      margin-top: 73px;
+      color: #FFD506;
+      font-size: 48px;
+    }
+
+    h3 {
+      margin-top: 23px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    a {
+      color: #666666;
+      text-decoration-line: none;
     }
 
     a:hover {
-      color: red;
+      color: #F4D30B;
     }
