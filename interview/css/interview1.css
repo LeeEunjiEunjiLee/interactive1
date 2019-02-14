@@ -1,14 +1,15 @@
 
     body {
       background: #4F8AB2;
-      color: #B2B2B2;
-      font-size: 18px;
+      color: #D0CFCF;
+      font-size: 17px;
       font-weight: lighter;
-      line-height: 1.3em;
+      line-height: 1.4em;
+      font-family: "Futura", sans-serif;
     }
 
     #container {
-      max-width: 650px;
+      max-width: 610px;
       margin: 0 auto;
     }
 
@@ -17,32 +18,56 @@
       max-width: 100%;
     }
 
-    body {
-    	font-family: "Futura", sans-serif;
+    /* table of contents */
+    #toc {
+      position: fixed;
+      box-sizing: content-box;
+      width: 8em;
+      height: 6em;
+      background: yellow;
+      border-radius: 7px;
+      top: 1em;
+      right: 1em;
+      font-size: 0.7em;
+      text-indent: 1.2em;
+      line-height: 1.4em;
     }
 
     #toc ul {
-    	position: fixed;
-    	top: 1em;
-    	right: 1em;
-    	color: #96928F;
     	padding: 0;
-    	font-size: 0.7em;
-    	color: #96928F;
-    	list-style-type: none;
+      list-style-type: none; 
+    }
+
+   /* links */
+   a {
+    color: #D0CFCF;
+    text-decoration-line: none;
+   }
+
+   a:hover {
+    color: #96928F;
+   }
+
+    #toc a {
+      text-decoration-line: none;
+      color: #4F8AB2;
+    }
+
+    #toc a:hover {
+      color: #96928F;
     }
 
     h1 {
-    	color: #FFDA00;
+    	color: yellow;
     	font-size: 3em;
     	font-weight: normal;
     	line-height: 1.1;
+      padding-top: 1.5em;
     }
 
     h2 {
-    	color: #FFDA00;
+    	color: yellow;
     	font-weight: normal;
-    	font-size: 1.2em;
-    	text-decoration: underline;
-    	padding-top: 7em;
+    	font-size: 1.1em;
+      padding-top: 7em;
     }
