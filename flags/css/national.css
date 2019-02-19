@@ -27,7 +27,7 @@ body {
         /* position the circle in the center of the flag */
         position: absolute;
         top: 75px;
-        left: 175px;
+        left: 177px;
 }
 
 #halfc-2 {
@@ -37,7 +37,7 @@ body {
         border-radius: 0px 0px 100px 100px;
         position: absolute;
         top: 150px;
-        left: 175px;
+        left: 177px;
 }
 
 #halfc-3 {
@@ -47,7 +47,7 @@ body {
         border-radius: 0px 0px 100px 100px;
         position: absolute;
         top: 142px;
-        left: 176px;
+        left: 179px;
 }
 
 #halfc-4 {
@@ -57,7 +57,7 @@ body {
         border-radius: 100px 100px 0 0;
         position: absolute;
         top: 124px;
-        left: 249px;
+        left: 251px;
 }
 
 #stroke-1 {
@@ -137,7 +137,7 @@ body {
         background: black;
         position: absolute;
         bottom: 72px;
-        right: 85px;
+        right: 83px;
 }
 
 #stroke-9 {
@@ -146,7 +146,7 @@ body {
         background: black;
         position: absolute;
         bottom: 41px;
-        right: 107px;
+        right: 105px;
 }
 
 #stroke-10 {
@@ -155,7 +155,7 @@ body {
         background: black;
         position: absolute;
         bottom: 50px;
-        right: 121px;
+        right: 119px;
 }
 
 #stroke-11 {
@@ -164,7 +164,7 @@ body {
         background: black;
         position: absolute;
         bottom: 82px;
-        right: 99px;
+        right: 97px;
 }
 
 #stroke-12 {
@@ -173,7 +173,7 @@ body {
         background: black;
         position: absolute;
         bottom: 91px;
-        right: 113px;
+        right: 111px;
 }
 
 #stroke-13 {
@@ -182,7 +182,7 @@ body {
         background: black;
         position: absolute;
         bottom: 60px;
-        right: 135px;
+        right: 133px;
 }
 
 #stroke-14 {
@@ -190,8 +190,8 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 60px;
-        right: 135px;
+        top: 58px;
+        right: 133px;
 }
 
 #stroke-15 {
@@ -199,8 +199,8 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 91px;
-        right: 113px;
+        top: 89px;
+        right: 111px;
 }
 
 #stroke-16 {
@@ -208,8 +208,8 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 66px;
-        right: 91px;
+        top: 64px;
+        right: 89px;
 }
 
 #stroke-17 {
@@ -217,8 +217,8 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 41px;
-        right: 107px;
+        top: 40px;
+        right: 105px;
 }
 
 #stroke-18 {
@@ -226,6 +226,6 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 72px;
-        right: 86px;
+        top: 70px;
+        right: 84px;
 }
