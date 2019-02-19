@@ -137,7 +137,7 @@ body {
         background: black;
         position: absolute;
         bottom: 72px;
-        right: 83px;
+        right: 85px;
 }
 
 #stroke-9 {
@@ -146,7 +146,7 @@ body {
         background: black;
         position: absolute;
         bottom: 41px;
-        right: 105px;
+        right: 107px;
 }
 
 #stroke-10 {
@@ -155,7 +155,7 @@ body {
         background: black;
         position: absolute;
         bottom: 50px;
-        right: 119px;
+        right: 121px;
 }
 
 #stroke-11 {
@@ -164,7 +164,7 @@ body {
         background: black;
         position: absolute;
         bottom: 82px;
-        right: 97px;
+        right: 99px;
 }
 
 #stroke-12 {
@@ -173,7 +173,7 @@ body {
         background: black;
         position: absolute;
         bottom: 91px;
-        right: 111px;
+        right: 113px;
 }
 
 #stroke-13 {
@@ -182,7 +182,7 @@ body {
         background: black;
         position: absolute;
         bottom: 60px;
-        right: 133px;
+        right: 135px;
 }
 
 #stroke-14 {
@@ -190,8 +190,8 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 58px;
-        right: 133px;
+        top: 55px;
+        right: 135px;
 }
 
 #stroke-15 {
@@ -199,8 +199,8 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 89px;
-        right: 111px;
+        top: 86px;
+        right: 113px;
 }
 
 #stroke-16 {
@@ -208,8 +208,8 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 64px;
-        right: 89px;
+        top: 61px;
+        right: 91px;
 }
 
 #stroke-17 {
@@ -217,8 +217,8 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 40px;
-        right: 105px;
+        top: 37px;
+        right: 106px;
 }
 
 #stroke-18 {
@@ -226,6 +226,6 @@ body {
         height: 10px;
         background: black;
         position: absolute;
-        top: 70px;
-        right: 84px;
+        top: 67px;
+        right: 85px;
 }
