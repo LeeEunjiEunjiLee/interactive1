@@ -18,15 +18,214 @@ body {
 }
 
 /* shapes */
-#circle {
+#halfc-1 {
         width: 150px;
-        height: 150px;
+        height: 75px;
         background: red;
-        border-radius: 75px;
-
+        border-radius: 100px 100px 0 0;
 
         /* position the circle in the center of the flag */
         position: absolute;
         top: 75px;
         left: 175px;
+}
+
+#halfc-2 {
+        width: 150px;
+        height: 75px;
+        background: navy;
+        border-radius: 0px 0px 100px 100px;
+        position: absolute;
+        top: 150px;
+        left: 175px;
+}
+
+#halfc-3 {
+        width: 75px;
+        height: 37.5px;
+        background: red;
+        border-radius: 0px 0px 100px 100px;
+        position: absolute;
+        top: 142px;
+        left: 176px;
+}
+
+#halfc-4 {
+        width: 75px;
+        height: 37.5px;
+        background: navy;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        top: 124px;
+        left: 249px;
+}
+
+#stroke-1 {
+        width: 70px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        top: 53px;
+        left: 80px;
+}
+
+#stroke-2 {
+        width: 70px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        top: 63px;
+        left: 94px;
+}
+
+#stroke-3 {
+        width: 70px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        top: 73px;
+        left: 108px;
+}
+
+.rotate-1 {
+        transform: rotate(305deg);     
+}
+
+#stroke-4 {
+        width: 70px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 53px;
+        left: 80px;
+}
+
+#stroke-5 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 79px;
+        left: 102px;
+}
+
+#stroke-6 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 48px;
+        left: 124px;
+}
+
+#stroke-7 {
+        width: 70px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 73px;
+        left: 108px;
+}
+
+.rotate-2 {
+        transform: rotate(55deg);
+}
+
+#stroke-8 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 72px;
+        right: 85px;
+}
+
+#stroke-9 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 41px;
+        right: 107px;
+}
+
+#stroke-10 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 50px;
+        right: 121px;
+}
+
+#stroke-11 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 82px;
+        right: 99px;
+}
+
+#stroke-12 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 91px;
+        right: 113px;
+}
+
+#stroke-13 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        bottom: 60px;
+        right: 135px;
+}
+
+#stroke-14 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        top: 60px;
+        right: 135px;
+}
+
+#stroke-15 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        top: 91px;
+        right: 113px;
+}
+
+#stroke-16 {
+        width: 70px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        top: 66px;
+        right: 91px;
+}
+
+#stroke-17 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        top: 41px;
+        right: 107px;
+}
+
+#stroke-18 {
+        width: 32px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        top: 72px;
+        right: 86px;
 }
