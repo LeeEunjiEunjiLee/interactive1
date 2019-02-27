@@ -9,7 +9,7 @@ body {
 }
 img {
     display: inline;
-    max-width: 100%;
+    width: 1450px;
     height: auto;
 }
 #desktop {
