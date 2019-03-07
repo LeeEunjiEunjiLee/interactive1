@@ -1,0 +1,212 @@
+
+* { margin: 0px; padding: 0px; }
+
+body { background-color: #FEF7E9; }
+
+img {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+body #image1 {
+  display: block;
+}
+
+#thunder1 {
+  display: none;
+}
+
+#thunder2 {
+  display: none;
+}
+
+#thunder3 {
+  display: none;
+}
+
+#thunder4 {
+  display: none;
+}
+
+#thunder5 {
+  display: none;
+}
+
+#thunder6 {
+  display: none;
+}
+
+#thunder7 {
+  display: none;
+}
+
+#squiggle-svg {
+  display: none;
+}
+
+.squiggle {
+  display: none;
+}
+
+body.bgcolor {
+      background-color: #B5B5B6;
+      background-size: 100%;
+      animation: bgcolor 5s; 
+}
+
+@keyframes bgcolor { 
+      0%{background-color: #C30D23}
+      30%{background-color: black}
+      100%{background-color: #B5B5B6}
+}
+
+body.bgcolor #image1 {
+	display: none;
+}
+
+body.bgcolor #thunder1{
+  display: block;
+}
+
+body.bgcolor #thunder2{
+  display: block;
+}
+
+body.bgcolor #thunder3{
+  display: block;
+}
+
+body.bgcolor #thunder4{
+  display: block;
+}
+
+body.bgcolor #thunder5{
+  display: block;
+}
+
+body.bgcolor #thunder6{
+  display: block;
+}
+
+body.bgcolor #thunder7{
+  display: block;
+}
+
+body.bgcolor .squiggle {
+  display: block;
+}
+
+#thunder1 {
+  background-color: yellow;
+  width: 130px;
+  height: 430px;
+  position: absolute;
+  top: 0px;
+  left: 214px;
+  -webkit-transform: skew(-35deg);
+}
+
+#thunder2 {
+  background-color: yellow;
+  width: 130px;
+  height: 430px;
+  position: absolute;
+  top: 363px;
+  left: 64px;
+  -webkit-transform: skew(-35deg);
+}
+
+#thunder3 {
+  background-color: yellow;
+  width: 130px;
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  left: 664px;
+  -webkit-transform: skew(-35deg);
+}
+
+#thunder4 {
+  background-color: yellow;
+  width: 130px;
+  height: 300px;
+  position: absolute;
+  top: 240px;
+  left: 604px;
+  -webkit-transform: skew(-35deg);
+}
+
+#thunder5 {
+  background-color: yellow;
+  width: 130px;
+  height: 314px;
+  position: absolute;
+  top: 480px;
+  left: 544px;
+  -webkit-transform: skew(-35deg);
+}
+
+#thunder6 {
+  background-color: yellow;
+  width: 130px;
+  height: 430px;
+  position: absolute;
+  top: 0px;
+  left: 1144px;
+  -webkit-transform: skew(-35deg);
+}
+
+#thunder7 {
+  background-color: yellow;
+  width: 130px;
+  height: 430px;
+  position: absolute;
+  top: 363px;
+  left: 1004px;
+  -webkit-transform: skew(-35deg);
+}
+
+#squiggle-svg {
+  align-items: center;
+  display: flex;
+  height: 80vh;
+  justify-content: center; 
+}
+
+svg {
+  width: 100%;
+}
+
+.squiggle {
+  stroke: #FFF539;
+  opacity: 0;
+  transition: 0.5s opacity linear;
+  animation:shift 5s linear infinite;
+}
+
+.squiggle-svg1{
+  margin-top: -280px;
+}
+
+.squiggle-svg2{
+  margin-top: -450px;
+}
+
+.squiggleOpacity{
+  opacity: 1;
+}
+
+@keyframes shift {
+  0% {
+    transform:translateX(0); 
+    /*filter: hue-rotate(0deg);*/
+    }
+  50%{
+    /*filter: hue-rotate(0deg);*/
+  }
+  100% {
+    transform:translateX(-20px); 
+    /*filter: hue-rotate(360deg);*/
+  }
+}
