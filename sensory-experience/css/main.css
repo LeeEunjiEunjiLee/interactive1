@@ -5,8 +5,11 @@ body { background-color: #FEF7E9; }
 
 img {
   display: inline;
-  width: 100%;
+  position: absolute;
+  width: 95%;
   height: auto;
+  top: 0px;
+  left: 70px;
 }
 
 body #image1 {
