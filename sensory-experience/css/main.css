@@ -184,7 +184,7 @@ svg {
 .squiggle {
   stroke: #FFF539;
   opacity: 0;
-  transition: 0.5s opacity linear;
+  transition: 0.5s opacity;
   animation:shift 5s linear infinite;
 }
 
